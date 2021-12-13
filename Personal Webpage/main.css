@@ -1,0 +1,158 @@
+                                                                            h1,
+                                                                            h2,
+                                                                            h3,
+                                                                            h4,
+                                                                            h5,
+                                                                            p,
+                                                                            span,
+                                                                            ul,
+                                                                            li,
+                                                                            a,
+                                                                            b {
+                                                                                font-family: 'Montserrat', sans-serif;
+                                                                            }
+                                                                            
+                                                                            h1,
+                                                                            h2,
+                                                                            h3 {
+                                                                                font-weight: 700;
+                                                                            }
+                                                                            
+                                                                            body {
+                                                                                margin: 0;
+                                                                                padding: 0;
+                                                                                line-height: 1.5rem;
+                                                                            }
+                                                                            /* =========================MainMenu CSS Start============================= */
+                                                                            
+                                                                            .jumbotron {
+                                                                                color: #485460;
+                                                                                background-color: #ffd32a !important;
+                                                                            }
+                                                                            
+                                                                            .navbar {
+                                                                                height: 70px;
+                                                                            }
+                                                                            
+                                                                            .container-fluid {
+                                                                                background-color: #;
+                                                                                width: 100%;
+                                                                            }
+                                                                            
+                                                                            .col-sm-5 .main-images img {
+                                                                                width: 50%;
+                                                                                margin-top: 125px;
+                                                                                transition: 1s;
+                                                                                border: 10px solid white;
+                                                                            }
+                                                                            
+                                                                            .main-images img:hover {
+                                                                                transform: scale(1.1);
+                                                                            }
+                                                                            
+                                                                            .col-sm-7 .content {
+                                                                                padding: 120px;
+                                                                            }
+                                                                            
+                                                                            ul.navbar-nav li a:hover {
+                                                                                background-color: #ffd32a;
+                                                                            }
+                                                                            /* ===========================MainMenu CSS End====================================== */
+                                                                            /* ===========================About Section start===================================================== */
+                                                                            
+                                                                            .container-fluid .about {
+                                                                                color: #ffd32a;
+                                                                                margin-bottom: 80px;
+                                                                                padding-top: 60px;
+                                                                            }
+                                                                            
+                                                                            .container-fluid .about2 {
+                                                                                margin-top: 50px;
+                                                                                color: #ffd32a;
+                                                                                padding-top: 60px;
+                                                                            }
+                                                                            
+                                                                            .container .about {
+                                                                                color: #ffd32a;
+                                                                                padding-top: 50px;
+                                                                                padding-bottom: 50px;
+                                                                            }
+                                                                            
+                                                                            .col-sm-8 .know-me {
+                                                                                padding-left: 100px;
+                                                                            }
+                                                                            
+                                                                            .col-sm-3 .name {
+                                                                                padding-top: 100px;
+                                                                                padding-left: 100px;
+                                                                            }
+                                                                            
+                                                                            .first_row {
+                                                                                padding: 100px;
+                                                                            }
+                                                                            
+                                                                            .second_row {
+                                                                                padding: 100px;
+                                                                                padding-top: 60px;
+                                                                            }
+                                                                            
+                                                                            .container-fluid {}
+                                                                            
+                                                                            .col-sm-6 {
+                                                                                border-left: 2px solid #ffd32a;
+                                                                            }
+                                                                            /* ======================Progress======================= */
+                                                                            
+                                                                            .progress-bar-area {
+                                                                                padding: 20px;
+                                                                            }
+                                                                            
+                                                                            .progress {
+                                                                                height: 6px !important;
+                                                                            }
+                                                                            
+                                                                            .container .btn {
+                                                                                margin-top: 20px;
+                                                                                margin-left: 500px;
+                                                                                border: 1px solid #ffd32a;
+                                                                            }
+                                                                            
+                                                                            .btn:hover {
+                                                                                background-color: #ffd32a!important;
+                                                                            }
+                                                                            
+                                                                            .container-fluid img {
+                                                                                max-width: 100%;
+                                                                            }
+                                                                            
+                                                                            .to_top {
+                                                                                width: 50px;
+                                                                                height: 30px;
+                                                                                position: fixed;
+                                                                                right: 50px;
+                                                                                bottom: 100px;
+                                                                                z-index: 99;
+                                                                                background-color: #eee;
+                                                                                border-radius: 20px;
+                                                                                border: 2px solid violet;
+                                                                                color: #ff7675;
+                                                                                text-align: center;
+                                                                                line-height: 25px;
+                                                                                text-decoration: none;
+                                                                                padding-bottom: 4px;
+                                                                                cursor: pointer;
+                                                                            }
+                                                                            
+                                                                            .design {
+                                                                                padding-top: 3px;
+                                                                                padding-bottom: 3px;
+                                                                                background-color: rgb(41, 94, 194);
+                                                                            }
+                                                                            
+                                                                            .carousel-control-prev {
+                                                                                background: rgb(241, 241, 156)!important;
+                                                                            }
+                                                                            
+                                                                            .carousel-control-next {
+                                                                                background: rgb(247, 247, 147)!important;
+                                                                            }
