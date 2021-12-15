@@ -1,0 +1,103 @@
+a, span, li, p, h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+.measurement {
+    background: yellow;
+    padding: 70px 0px;
+}
+
+.single_box h2 {
+    font-size: 18px;
+}
+
+.single_box p {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.single_box {
+    width: 20%;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.measurement_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slicknav_menu {
+    display: none;
+    background-color: ;
+}
+
+.slicknav_menu ul li {
+    background-color: green;
+    width: 200px;
+    margin-top: 0px;
+    display: block;
+    float: right;
+}
+
+@media screen and (max-width: 769px) {
+    ul.list-unstyled {
+        width: 100%;
+        margin: 0px;
+        padding-left: 12px;
+    }
+    /* .slicknav_menu {
+            width: 100%;
+        } */
+    .single_box {
+        width: 50% !important;
+        text-align: center;
+        padding: 0px 5px;
+        margin-bottom: 30px;
+    }
+    .slicknav_menu ul li {
+        display: block !important;
+        width: 100%;
+    }
+    .slicknav_menu {
+        display: block;
+        width: 100%;
+        float: right;
+        background-color: transparent!important;
+    }
+    .slicknav_btn {
+        background-color: transparent !important;
+    }
+    .logo {
+        width: 30%;
+        position: absolute;
+        float: left;
+    }
+    .slicknav_menu ul li a {
+        display: block;
+    }
+    .slicknav_menu ul li a {
+        text-transform: uppercase;
+    }
+    .logo img {
+        border-style: none;
+        ;
+    }
+    #menu {
+        display: none;
+    }
+    .search_bar li {
+        display: none;
+    }
+    button {
+        display: none;
+    }
+    .recipca li {
+        border: 2px solid green !important;
+    }
+}
